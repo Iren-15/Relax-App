@@ -1,0 +1,94 @@
+#wavesVideo {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.par, .parTwo {
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    display: none;
+}
+
+input {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    width: 50px;
+    display: none;
+}
+
+.less {
+    /* background-image: url(https://icons8.com/icon/2tT9vkUSoRrL/subtract); */
+    width: 25px;
+    display: none; 
+}
+
+.more {
+    /* background-image: url(https://img.icons8.com/fluency-systems-regular/512/plus-math.png); */
+    width: 25px;
+    display: none;
+}
+
+.btnRepeat {
+    display: none;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif; 
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(to right, #87c2f9, #807a7a);
+}
+
+.countdown {
+    font-size: 45px;
+    background: linear-gradient(to right, #87c2f9, #807a7a);
+    padding:10px;
+    font-family: 'Roboto', sans-serif; 
+    border-radius: 10px;
+}
+
+
+.btnStart {
+    display: none;
+}
+
+@media all and (max-width:500px) {
+    .btnStart {
+        display: block;
+        padding: 10px;
+        font-family: 'Roboto', sans-serif; 
+        border-radius: 10px;
+        font-size: 30px;
+        font-weight: bold;
+        background: linear-gradient(to right, #87c2f9, #807a7a);
+    }
+    
+
+    body {
+        background-color:#807a7a;
+    }
+
+}

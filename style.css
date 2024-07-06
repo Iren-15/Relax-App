@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+h1 {
+    color: white;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #78c49e, #807a7a);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content:space-around;
+    margin-top: 100px;
+}
+
+#btnWaves, #btnRain, #btnNature {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #44856a, #f0f3f5);
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#mainVideo {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    right: 0;
+    bottom: 0;
+z-index: -1;
+}
